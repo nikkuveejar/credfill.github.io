@@ -614,7 +614,7 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .stats { background-image: linear-gradient(to bottom, var(--white) 50%, var(--cultured) 50%); }
- /* Old code  */
+ /* Old code */
 /* .stats-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
