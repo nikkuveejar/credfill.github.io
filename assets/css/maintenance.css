@@ -1,0 +1,22 @@
+/* Add these styles to your existing CSS or maintenance.css */
+
+/* Styles for the maintenance overlay */
+.maintenance-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Text color on top of the background image */
+    padding-bottom: 400px; /* Increase the padding to provide more space at the bottom */
+  }
+  
+  .maintenance-overlay h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .maintenance-overlay p {
+    font-size: 18px;
+  }
+  
