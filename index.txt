@@ -1,4 +1,4 @@
-Adex 
+credfill
 
 This is a business agency html template made by codewithsadee
 
@@ -6,7 +6,7 @@ This is a business agency html template made by codewithsadee
 
 #---------- HEADER ----------#
 
-alt = Adex home
+alt = credfill home
 
 aria-label = close menu
 <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
@@ -17,7 +17,7 @@ Projects
 Blog
 Contact
 
-info@email.com
+infocredfill@gmail.com
 00 (123) 456 78 90
 
 <ion-icon name="logo-twitter"></ion-icon>
@@ -44,7 +44,7 @@ Contact Us
 
 alt = hero banner
 
-aria-label = play adex intro
+aria-label = play credfill intro
 <ion-icon name="play" aria-hidden="true"></ion-icon>
 
 aria-label = slide to previous
