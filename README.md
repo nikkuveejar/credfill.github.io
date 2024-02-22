@@ -1,7 +1,7 @@
 
 
 
-  <a href="https://credfill-pvt-ltd.github.io/credfill.github.io/"><strong>➥ Live Demo</strong></a>
+  <a href="https://credfill.in"><strong>➥ Live Demo</strong></a>
 
 
 
@@ -16,7 +16,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/nikkuveejar.
+If you want to contact with me you can reach me at (https://www.twitter.com/nikkuveejar.
 
 ### License
 
