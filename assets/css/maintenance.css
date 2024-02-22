@@ -22,11 +22,12 @@
   /* Media query for smaller screens */
 @media (max-width: 768px) {
   .maintenance-overlay {
-    padding-bottom: 50px; /* Adjust the padding for smaller screens */
+    margin-top: 30px;
+    padding-bottom: 400px;  /* Adjust the padding for smaller screens */
   }
 
   .maintenance-overlay h1 {
-    font-size: 28px; /* Adjust font size for smaller screens */
+    font-size: 20px; /* Adjust font size for smaller screens */
   }
 
   .maintenance-overlay p {
