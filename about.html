@@ -29,8 +29,7 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/maintenance.css">
-
+  <link rel="stylesheet" href="./assets/css/about.css">
 
   <!-- 
     - preload images
@@ -76,11 +75,7 @@
           </li>
 
           <li>
-            <a href="services.htm" class="navbar-link">Our Services</a>
-          </li>
-
-          <li>
-            <a href="startups.htm" class="navbar-link">Start-ups</a>
+            <a href="services.html" class="navbar-link">Services</a>
           </li>
 
           <li>
@@ -88,7 +83,7 @@
           </li>
 
           <li>
-            <a href="contact.htm" class="navbar-link">Contact Us</a>
+            <a href="contact.html" class="navbar-link">Contact Us</a>
           </li>
 
         </ul>
@@ -145,25 +140,278 @@
 
     </div>
   </header>
+
+
+
+
+
   <main>
     <article>
-  
+
       <!-- 
         - #HERO
       -->
-  
-      <section class="section hero has-bg-image" aria-label="home" style="background-image: url('./assets/images/hero-bg.jpg')">
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
         <div class="container">
-          <div class="maintenance-overlay">
-            <h1>This Page is Under Maintenance</h1>
-            <p>We apologize for the inconvenience. Please check back later.</p>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Our Mission</h1>
+
+            <p class="hero-text">
+              We are on a mission to make the tax and credit process hassle free for everyone. We are here to help you
+              with all your tax and credit needs. We are here to help you with all your tax and credit needs. We are here
+              to help you with all your tax and credit needs. We are here to help you with all your tax and credit needs.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#" class="btn btn-primary">Join Us</a>
+
+              <!-- <a href="#" class="btn btn-outline">Join Us</a> -->
+
+            </div>
+
           </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play CredFill intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
         </div>
       </section>
-  
+
+      <!-- 
+        - #CLIENTS
+       -->
+       <section class="section service" aria-labelledby="client-label" id="client">
+        <div class="container">
+
+          <p class="section-subtitle" id="client-label"></p>
+
+          <h2 class="h2 section-title">
+            Our Clients
+          </h2>
+          <div class="carousel">
+            <button class="carousel-btn carousel-prev" aria-label="slide to previous" data-carousel-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+          <div class="carousel-wrapper">
+            <ul class="grid">
+              <li class="carousel-slide">
+                <div class="carousel-card">
+
+                  <div class="card-img">
+                    <img src="/assets/images/blog-1.jpg" alt="" srcset="">
+                  </div>
+                </div>
+              </li>
+              <li class="carousel-slide">
+                <div class="carousel-card">
+
+                  <div class="card-img">
+                    <img src="/assets/images/blog-2.jpg" alt="" srcset="">
+                  </div>
+                </div>
+              </li>
+              
+              <li class="carousel-slide">
+                <div class="carousel-card">
+
+                  <div class="card-img">
+                    <img src="/assets/images/blog-3.jpg" alt="" srcset="">
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="carousel-card">
+                  <div class="card-img">
+                    <img src="/assets/images/blog-4.jpg" alt="" srcset="">
+                  </div>
+                </div>
+              </li>
+              
+              <li class="carousel-slide">
+                <div class="carousel-card">
+
+                  <div class="card-img">
+                    <img src="/assets/images/feature-banner.png" alt="" srcset="">
+                  </div>
+                </div>
+              </li>
+              
+              <li class="carousel-slide">
+                <div class="carousel-card">
+
+                  <div class="card-img">
+                    <img src="/assets/images/about-banner.png" alt="" srcset="">
+                  </div>
+                </div>
+              </li>
+              
+              
+              
+            </ul>
+        </div>
+        <button class="carousel-btn carousel-next" aria-label="slide to next" data-carousel-next>
+          <ion-icon name="arrow-forward"></ion-icon>
+        </button>
+
+        </div>
+      </section>
+
+
+            <!-- 
+        - #TEAM
+       -->
+       <section class="section service" aria-labelledby="team-label" aria-colcount="team">
+        <div class="container">
+
+          <p class="section-subtitle" id="team-label"></p>
+
+          <h2 class="h2 section-title">
+            Our Team
+          </h2>
+          <div class="carousel">
+            <button class="carousel-btn carousel-prev" aria-label="slide to previous" data-carousel-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+          <div class="carousel-wrapper">
+            <ul class="grid">
+              <li class="carousel-slide">
+                <div class="carousel-card">
+
+                  <div class="card-img">
+                    <img src="/assets/images/blog-1.jpg" alt="" srcset="">
+                  </div>
+                </div>
+              </li>
+              <li class="carousel-slide">
+                <div class="carousel-card">
+
+                  <div class="card-img">
+                    <img src="/assets/images/blog-2.jpg" alt="" srcset="">
+                  </div>
+                </div>
+              </li>
+              
+              <li class="carousel-slide">
+                <div class="carousel-card">
+
+                  <div class="card-img">
+                    <img src="/assets/images/blog-3.jpg" alt="" srcset="">
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="carousel-card">
+
+                  <div class="card-img">
+                    <img src="/assets/images/blog-4.jpg" alt="" srcset="">
+                  </div>
+                </div>
+              </li>
+              
+              <li class="carousel-slide">
+                <div class="carousel-card">
+
+                  <div class="card-img">
+                    <img src="/assets/images/feature-banner.png" alt="" srcset="">
+                  </div>
+                </div>
+              </li>
+              
+              <li class="carousel-slide">
+                <div class="carousel-card">
+
+                  <div class="card-img">
+                    <img src="/assets/images/about-banner.png" alt="" srcset="">
+                  </div>
+                </div>
+              </li>
+              
+              
+              
+            </ul>
+        </div>
+        <button class="carousel-btn carousel-next" aria-label="slide to next" data-carousel-next>
+          <ion-icon name="arrow-forward"></ion-icon>
+        </button>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Want to know more, get in touch with us.
+          </h2>
+
+          <a href="tel:+91 9472194303" class="btn btn-primary">Contact Us!</a>
+
+        </div>
+      </section>
+
     </article>
   </main>
-   
+
+
+
+
+
   <!-- 
     - #FOOTER
   -->
@@ -257,12 +505,21 @@
         </li>
 
         <li>
-          <a href="tnc.htm" class="footer-link">Terms of Use</a>
+          <a href="services.html" class="footer-link">Services</a>
         </li>
 
         <li>
-          <a href="privacy.htm" class="footer-link">Privacy Policy</a>
+          <a href="contact.html" class="footer-link">Contact Us</a>
         </li>
+
+        <li>
+          <a href="tnc.html" class="footer-link">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="privacy.html" class="footer-link">Privacy Policy</a>
+        </li>
+
 
 
       </ul>
@@ -290,16 +547,20 @@
 
 
 
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
 
   <!-- 
     - ionicon
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/about.js"></script>
+
 
 </body>
 
